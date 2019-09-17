@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: aquamarine;
+    display: table;
+    width: 100%;
+    
+}
+nav {
+    float: right;
+    display: table;
+}
+
+footer {
+    background-color: aquamarine;
+    height: 10vh;
+}
