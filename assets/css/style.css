@@ -9,14 +9,23 @@ header {
     height: 10vh; 
     position: relative;
     background-color: azure;
+    border-bottom: 1px solid rgb(206, 199, 199);
 }
 
-.name {
+.header-content {
+    width: 960px;
+    display: table-cell;
     position: absolute;
+    height: 100%;
+    transform: translate(20%);
+    
+
+}
+.name {
     display: table;
-    margin-left: 250px;
     background-color: aquamarine;
     height: 100%;
+    position: absolute;
 }
 
 h3 {
@@ -31,7 +40,6 @@ nav {
     float: right;
     display: table;
     height: 100%;
-    margin-right: 160px;
     background-color: aquamarine;
 }
 
@@ -47,14 +55,14 @@ a:not(:last-child) {
 }
 
 main {
-    height: 80vh;
+    height: 88vh;
     position: relative;
 }
 
-.content {
+.card {
     position: absolute;
     height: 80%;
-    width: 60%;
+    width: 960px;
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
@@ -67,5 +75,5 @@ h4 {
 
 footer {
     background-color: aquamarine;
-    height: 10vh;
+    height: 2vh;
 }
