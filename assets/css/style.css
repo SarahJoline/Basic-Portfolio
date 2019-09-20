@@ -73,6 +73,64 @@ h4 {
     color: aquamarine;
 }
 
+img {
+    float: left;
+}
+
+.hangman, .rock-paper-scissors, .rpg, .rutgers, .trivia {
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    margin: 20px 10px;
+}
+
+.hangman {
+    background: url(https://picsum.photos/id/1052/4000/2667);
+    background-size: cover;
+    background-position: center;
+}
+
+.rpg {
+    background: url(https://picsum.photos/id/1054/3079/1733);
+    background-size: cover;
+    background-position: center;
+}
+
+.trivia {
+    background: url(https://picsum.photos/id/1014/6016/4000);
+    background-size: cover;
+    background-position: center;
+}
+
+.rutgers {
+    background: url(https://picsum.photos/id/169/2500/1662);
+    background-size: cover;
+    background-position: center;
+}
+
+.rock-paper-scissors {
+    background: url(https://picsum.photos/id/1025/4951/3301);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: table;
+    background-color: aquamarine;
+    width: 100%;
+    height: 40px;
+    top: 70%;
+    position: absolute;
+}
+
+h5 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer {
     background-color: aquamarine;
     height: 2vh;
