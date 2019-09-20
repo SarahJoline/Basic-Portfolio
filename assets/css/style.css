@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -17,7 +18,8 @@ header {
     display: table-cell;
     position: absolute;
     height: 100%;
-    transform: translate(20%);
+    left: 50%;
+    transform: translate(-50%);
     
 
 }
@@ -66,16 +68,37 @@ main {
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
+    border: 1px solid rgb(202, 196, 196);
+}
 
+.card-header {
+    height: 15%;
+    display: table;
+    width: 900px;
+    margin-left: 30px;
+    border-bottom: 1px solid rgb(213, 216, 214);
 }
 
 h4 {
     color: aquamarine;
+    display: table-cell;
+    vertical-align: middle;
 }
 
-img {
+.card-content {
+    width: 900px;
+    display: table;
+    align-content: center;
+}
+
+/**img {
+    margin: 20px;
     float: left;
 }
+
+p {
+    margin: 20px;
+}*/
 
 .hangman, .rock-paper-scissors, .rpg, .rutgers, .trivia {
     display: inline-block;
@@ -129,6 +152,11 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+input {
+    width: 100%;
+    display: table-cell;
 }
 
 footer {
